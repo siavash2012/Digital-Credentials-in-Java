@@ -1,5 +1,3 @@
-# Digital-Credentials-in-Java
-Java implementation of Brand's Digital Credentials based on "Introduction to Privacy Enhancing Technologies" (pages 124-130) by Carlisle Adams
 <h3 >Java implementation of Brand's Digital Credentials based on "Introduction to Privacy Enhancing Technologies" (pages 124-130) by Carlisle Adams.</h3>
 <p>This repository includes the Java implementation of Brand's Digital Credentials. Two versions of the protocols were implemented: Modulo p (discrete logarithm) and elliptic curve.</p>
 <p>The discrete log version is implemented in the three classes DLUser (user Alice), DLCA (the Certification Authority), and DLVerifier (the verifier of Alice's digital signature and her attributes). The elliptic curve version is implemented in ECUser, ECCA, and ECVerifier classes. To run the files, download the Bouncy Castle JDK (https://www.bouncycastle.org/latest_releases.html) and add it to the project.</p>
