@@ -24,7 +24,7 @@ public class ECTest {
     public static void main(String[] args) throws NoSuchAlgorithmException, IOException {
         ECCA ellipticCurveCA = new ECCA(10);
         ECVerifier verifier = new ECVerifier();
-        TextIO textIO = new TextIO();
+        TextIO textIO = new TextIO("book_implementation_EC_result.txt");
         ECTest test = new ECTest();
         textIO.readTestFile("user_information.txt");
         long startTime, endTime, duration;
