@@ -14,10 +14,10 @@ public class TextIO {
     ArrayList<String> fileDataArray = new ArrayList<>();
     FileWriter writer;
 
-    public TextIO() {
+    public TextIO(String fileName) {
 
         try {
-            writer = new FileWriter("book_implementation_EC_result.txt");
+            writer = new FileWriter(fileName);
         } catch (IOException e) {
             e.printStackTrace();
         }

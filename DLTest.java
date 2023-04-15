@@ -24,7 +24,7 @@ public class DLTest {
     public static void main(String[] args) throws NoSuchAlgorithmException, IOException {
         DLCA discreteLogCA = new DLCA(10);
         DLVerifier verifier = new DLVerifier();
-        TextIO textIO = new TextIO();
+        TextIO textIO = new TextIO("book_implementation_DL_result.txt");
         DLTest test = new DLTest();
         textIO.readTestFile("user_information.txt");
         long startTime, endTime, duration;
